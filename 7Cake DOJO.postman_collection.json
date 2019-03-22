@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "741f0d31-938f-46c1-983f-f6c85db1c75a",
+		"name": "7Cake DOJO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api-7cake.herokuapp.com/login/guizelini/123",
+					"protocol": "https",
+					"host": [
+						"api-7cake",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"login",
+						"guizelini",
+						"123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Sorteio - Sortear",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api-7cake.herokuapp.com/sorteios/next",
+					"protocol": "https",
+					"host": [
+						"api-7cake",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sorteios",
+						"next"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Sorteio - Listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api-7cake.herokuapp.com/sorteios",
+					"protocol": "https",
+					"host": [
+						"api-7cake",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sorteios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
